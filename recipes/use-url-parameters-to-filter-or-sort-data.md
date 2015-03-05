@@ -9,7 +9,7 @@ How can you pass parameters in the URL to filter data when requesting a collecti
 Answer
 ------
 
-`Collection Query String whitelist` under `Content Negotiation` in the Admin UI, or its analogue
+`Collection Query String whitelist` under `REST Parameters` in the Admin UI, or its analogue
 `collection_query_whitelist` key within `zf-rest` in `module.config.php`, whitelists query string
 arguments, allowing their value to be received by your REST resource's `fetchAll($params = array())`
 method.
